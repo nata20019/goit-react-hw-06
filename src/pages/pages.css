@@ -1,0 +1,31 @@
+.coffee-details-card {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.coffee-details-card img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.coffee-info {
+  flex-grow: 1;
+}
+
+.coffee-info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.coffee-info h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #555;
+}
