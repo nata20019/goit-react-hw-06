@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nata20019.github.io/react-module5/",
+  "homepage": "https://nata20019.github.io/react-module6/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@testing-library/jest-dom": "^5.16.3",
