@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { changeLang } from "../redux/store"; 
+import { changeLang } from "../redux/localeSlice"; 
 
 export const LangSwitcher = () => {
     const dispatch = useDispatch();
