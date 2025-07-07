@@ -8,7 +8,7 @@ const CoffeeDetails = lazy(() => import('../pages/CoffeeDetails'));
 
 export const App = () => {
   return (
-    <BrowserRouter basename="/react-module5">
+    <BrowserRouter basename="/goit-react-hw-06">
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
