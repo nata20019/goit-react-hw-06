@@ -31,7 +31,7 @@ const localeInitialState = {
     }
 
  const accountReducer = (state = accountInitialState, action) => {
-switch(action.payload) {
+switch(action.type) {
     case 'account/deposit':
         return {
                 ...state,
