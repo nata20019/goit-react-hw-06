@@ -1,6 +1,6 @@
 import {combineReducers, createStore} from'redux';
 import { devToolsEnhancer } from '@redux-devtools/extension';
-import { type } from '@testing-library/user-event/dist/type';
+// import { type } from '@testing-library/user-event/dist/type';
 
 export const deposit = value => {
     return {
