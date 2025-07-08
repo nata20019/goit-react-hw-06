@@ -4,7 +4,7 @@ import { localeReducer } from './localeSlice';
 
   export const store = configureStore({
     reducer: {
-            account: accountReducer,
+    account: accountReducer,
     locale: localeReducer,
     }
   });
